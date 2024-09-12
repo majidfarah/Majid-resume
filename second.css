@@ -1,26 +1,103 @@
+/* General styling */
 body {
     font-family: Arial, sans-serif;
-    margin: 20px;
-    background-color: #f4f4f4;
-}
-
-header {
-    text-align: center;
-}
-
-h1, h2 {
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f7; /* Light background for the body */
     color: #333;
 }
 
-ul {
-    list-style: none;
-    padding: 0;
+/* Header styling */
+header {
+    background-color: #4caf50; /* Green for header */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
 }
 
-li {
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+/* Education section */
+.education {
+    background-color: #ffeb3b; /* Yellow for education section */
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.education div {
+    font-size: 1.5rem;
+    font-weight: bold;
     margin-bottom: 10px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #333;
 }
 
-section {
-    margin-bottom: 30px;
+/* Experience section */
+.experience {
+    background-color: #2196f3; /* Blue for experience section */
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.experience div {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #333;
+}
+
+/* Skills section */
+.skills {
+    background-color: #ff5722; /* Orange for skills section */
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.skills div {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #333;
+}
+
+/* Hobby section */
+.hobby {
+    background-color: #9c27b0; /* Purple for hobby section */
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.hobby div {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #333;
+}
+
+/* Footer styling */
+footer {
+    background-color: #607d8b; /* Greyish-blue for footer */
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 5px 0;
 }
